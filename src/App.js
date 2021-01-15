@@ -18,6 +18,7 @@ function App() {
       <button onClick={plusCount}>+</button>
       <button onClick={() => setDate(data - 1)}>-</button>
       <button onClick={() => setIsLight(!isLight)}>change theme</button>
+      <h2>Updating Version Control....</h2>
     </div>
   );
 }
